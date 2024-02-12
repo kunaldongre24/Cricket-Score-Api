@@ -12,13 +12,14 @@ Make sure you have Node.js and npm installed on your system.
 ### Installation
 1. Clone the repository:
 ```bash
-   git clone https://github.com/yourusername/cricket-score-api.git
+git clone https://github.com/yourusername/cricket-score-api.git
 Navigate to the project directory:
+```
 
 ```bash
 cd cricket-score-api
 Install dependencies:
-bash
+```
 
 ```bash
 Copy code
