@@ -2,6 +2,7 @@
 
 ## Introduction
 This API allows you to fetch live scores and a list of cricket matches. It utilizes Puppeteer for web scraping to get real-time data.
+**You can also check the frontend [here](https://github.com/kunaldongre24/Code-Compete)** 
 
 ## Getting Started
 Follow these steps to integrate the API into your project:
