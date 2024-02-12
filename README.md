@@ -44,7 +44,7 @@ const getLiveScore = async () => {
 };
 getLiveScore();
 ```
-Get List of Matches
+2. Get List of Matches
 Endpoint: /getMatches
 
 Retrieve a list of ongoing and upcoming matches.
