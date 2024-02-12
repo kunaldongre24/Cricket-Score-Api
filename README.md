@@ -13,27 +13,24 @@ Make sure you have Node.js and npm installed on your system.
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/cricket-score-api.git
-Navigate to the project directory:
 ```
-
+Navigate to the project directory:
 ```bash
 cd cricket-score-api
-Install dependencies:
 ```
-
+Install dependencies:
 ```bash
-Copy code
 npm install
+```
 Usage
 1. Get Live Score
-Endpoint: /getScore/:eventId
+Endpoint: `/getScore/:eventId`
 
 Fetch the live score of a specific match by providing the eventId.
 
 Example:
 
-javascript
-Copy code
+```js
 const axios = require('axios');
 
 const getLiveScore = async () => {
@@ -45,8 +42,8 @@ const getLiveScore = async () => {
     console.error(error.message);
   }
 };
-
 getLiveScore();
+```
 2. Get List of Matches
 Endpoint: /getMatches
 
