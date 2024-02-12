@@ -51,8 +51,7 @@ Retrieve a list of ongoing and upcoming matches.
 
 Example:
 
-javascript
-Copy code
+```js
 const axios = require('axios');
 
 const getMatchList = async () => {
@@ -65,4 +64,6 @@ const getMatchList = async () => {
 };
 
 getMatchList();
+```
+
 Feel free to integrate these endpoints into your project to access live scores and match information.
